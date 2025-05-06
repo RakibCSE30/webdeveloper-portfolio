@@ -236,4 +236,28 @@
   text-align: center;
    margin-top: 50px;
 }
+  /* footer design */
+  footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 117px;
 
+  }
+  .footer-column{
+    width: 50%;
+  }
+
+  footer input[type="text"] ,input[type="email"] , footer textarea   {
+    height: 50px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+    width: 100%;
+    display: block;
+    border: none;
+    margin-bottom: 24px;
+  }
+  .input-name{
+    font-size: 16;
+    text-align: auto;
+  }
