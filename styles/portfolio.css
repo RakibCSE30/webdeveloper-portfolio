@@ -304,7 +304,7 @@ footer textarea {
 }
 
 @media screen and (max-width:576px) {
-  .skill-container,footer,.about-items {
+  .skill-container,footer,.about-items,.banner {
     flex-direction: column;
   }
 
@@ -316,8 +316,19 @@ footer textarea {
     padding: 20px;
      
   }
+  .header{
+    background-image: none;
+  }
+  .banner{
+    margin: 20px;
+    padding: 10px;
+  }
+  .banner-profile-pic{
+    width: 100%;
+    margin-top: 300px;
+  }
   .about{
-    padding: 20px;
+    padding: 30px;
   }
   .footer-column{
     width: 100%;
@@ -325,5 +336,31 @@ footer textarea {
   footer input[type="text"],input[type="email"],footer textarea{
     width: calc((100% - 40px));
   }
+  nav,nav >ul{
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    text-align: center;
+
+  }
+  .btn{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    gap: 20px;
+    width: 100%;
+  }
+   .nav-title{
+    margin-left: 10px;
+   }
+   .para{
+    margin-left: 10px;
+    text-align: justify;
+    padding: 20px;
+   }
+   .resume-column,footer{
+    /* margin: 10px; */
+    padding: 20px;
+   }
+   
 
 }
